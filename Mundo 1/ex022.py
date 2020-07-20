@@ -1,4 +1,4 @@
-texto = str(input("digite seu nome:"))
+texto = str(input("digite seu nome:")).strip()
 maiuscula = texto.upper()
 print("o nome em letras maiusculas:")
 print(maiuscula)

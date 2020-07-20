@@ -16,8 +16,10 @@ while c != 5:
         print("Voce saiu...")
         c ==5
 
-    n1 = float(input("agora informe o primeiro numero:"))
-    n2 = float(input("informe o segundo numero:"))
+    if c != 5 and c <= 4 and c >=1:
+
+        n1 = float(input("agora informe o primeiro numero:"))
+        n2 = float(input("informe o segundo numero:"))
 
     if c == 1:
         resultado = n1 + n2

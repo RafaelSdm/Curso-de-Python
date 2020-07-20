@@ -1,4 +1,4 @@
-soma =0
+ soma =0
 media =0
 maior_id_m =0
 nomevelho =''

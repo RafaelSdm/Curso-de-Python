@@ -15,6 +15,6 @@ if n2 < n1 and n2 < n3:
 if n3 < n1 and n3 < n2:
     menor = n3
 
-print("o maior numero da sequencia é{}".format(maior))
-print("o menor numero da sequencia é{}".format(menor))
+print("o maior numero da sequencia é {}".format(maior))
+print("o menor numero da sequencia é {}".format(menor))
 

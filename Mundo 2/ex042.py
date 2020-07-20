@@ -14,9 +14,3 @@ if a + b > c and a + c > b and c + b > a:
 else:
     print("impossivel ter um trinagulo com essas medidas")
 
-if a == b and a == c and b ==c:
-    print("temos um trinagulo equilatero")
-elif a == b and a == c or b ==c and b == a or c == a and c == b:
-    print("temos um triangulo isósceles")
-else:
-    print("temos um triangulo escaleno")

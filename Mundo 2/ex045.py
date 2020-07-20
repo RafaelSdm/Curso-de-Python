@@ -6,7 +6,7 @@ print("\033[1;31m-==-\033[m"*20)
 print("BEM VINDO AO JOGO, AQUI VOCE IRÁ ENFRENTAR A PRÓPRIA MAQUINA")
 print("VOCE SAI JOGANDO! ESCOLHA PEDRA PAPEL OU TESOURA")
 
-jogador = str(input())
+jogador = str(input()).upper()
 lista = [1, 2, 3]
 
 print("AGORA É A VEZ DO COMPUTADOR...")

@@ -6,4 +6,4 @@ print("gerando a tabuada:")
 
 for c in range(0,11):
     print("{} X {} = {}".format(numero,c,numero*c))
-    sleep(0.2)
+    sleep(0.5)

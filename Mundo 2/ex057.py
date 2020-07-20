@@ -3,7 +3,7 @@ print("validação masculina/ feminina")
 resp = 1
 
 while resp ==1:
-    sexo = str(input("informe o se sexo: [F/M]")).upper()
+    sexo = str(input("informe o se sexo: [F/M]")).strip().upper()
 
     if sexo == 'F' or sexo == 'M':
         resp = resp +1
