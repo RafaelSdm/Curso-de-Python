@@ -1,15 +1,13 @@
-from random import randint
-print("-"*30)
-print("JOGO DA MEGA SENA")
-print("-"*30)
-mega = list()
+print("dados da matriz:")
 
-sorteio = int(input("informe quantas vezes o jogo ira ser sorteado:"))
+matriz = [[0,0,0],[0,0,0],[0,0,0]]
 
-for c in range(0,sorteio):
-    for c in range(0,6):
-        sorteado = randint(0,60)
+for i in range(0,3):
+    for j in range(0,3):
+        matriz = int(input(f"informe o valor da linha {i} e coluna {j}"))
 
-        mega.append(sorteado)
-
-print(f"numeros sorteados \n\n {mega}")
+print("matriz informada:")
+for i in range(0,3):
+    for j in range(0,3):
+        print(f"[{matriz[i][j]:^5}]",end="")
+    print()

@@ -1,24 +1,26 @@
-print("valores pares e impares:")
-par = list()
-impares = list()
-listaFinal = list()
+print("valores dos numeros pares e impares:")
+
+lista = [[],[]]
+numero =0
+
 for c in range(0,7):
-    numero = int(input("informe um numero:"))
+    numero = int(input(f"informe o {c+1}° numero:"))
 
-    if numero %2 == 0:
-        par.append(numero)
+    if numero %2 ==0:
+        lista[0].append(numero)
     else:
-        impares.append(numero)
+        lista[1].append(numero)
 
-impares.sort()
-par.sort()
-listaFinal.append(par[:])
-listaFinal.append(impares[:])
-
-print("lista em ordem crescente dos numeros informados:")
-
-for c in listaFinal:
-    print(f" {c} ",end="")
+print("Dados os numeros informados:")
+print("lista dos numeros pares em ordem crescente:")
+lista[0].sort()
+for c in lista[0]:
+    print(f"[{c}]",end="")
+print()
+print("lista dos numeros impares em ordem crescente:")
+lista[1].sort()
+for c in lista[1]:
+    print(f"[{c}]",end="")
 
 
 
