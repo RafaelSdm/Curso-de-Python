@@ -1,12 +1,8 @@
 def linhas():
     print("_"*30)
 
-def analise(x =0, y =0):
-    if x ==0:
-        n1 = 'desconhecido'
-    else:
-        n1 = x
-    print(n1)
+def analise(x ='desconhecido', y =0):
+   print(f"o jogaodor {x},fez {y} gols na temporada ")
 
 
 
@@ -17,4 +13,11 @@ nome = str(input("informe o nome do jogador:"))
 
 gols = str(input("informe quantos gols fez:"))
 
-analise(nome,gols)
+if gols.isnumeric():
+    gols = int(gols)
+else:
+    gols = 0
+if nome.strip() == "":
+    analise(y = gols)
+else:
+    analise(nome,gols)

@@ -14,7 +14,7 @@ def leiaInt(msg):
             print("valor informado nao é um numero inteiro")
         if validacao:
             break
-        return valor
+    return valor
 
 
 linhas()
