@@ -6,6 +6,8 @@ milhar = numero//1000 %10
 
 
 
+
+
 print("análise do numero:")
 print("unidade:{}".format(unidade))
 print("dezena:{}".format(dezena))
